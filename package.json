@@ -2,7 +2,7 @@
   "name": "use-local-storage-extended",
   "author": "wenchonglee",
   "license": "GNU",
-  "version": "0.0.2",
+  "version": "0.1.1",
   "description": "A React hook that has extended options for housekeeping and backwards compatibility",
   "keywords": [
     "react",

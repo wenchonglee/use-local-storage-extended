@@ -21,11 +21,6 @@ const subscribe: Parameters<typeof useSyncExternalStore>["0"] = (listener) => {
   };
 };
 
-/**
- *
- * TODO
- *
- */
 export const useLocalStorage = <TValue, TIncludeMeta extends Record<string, unknown>>(
   props: UseLocalStorageProps<TValue, TIncludeMeta>
 ): [TValue, (updatedValue: TValue) => void, () => void, Meta<TIncludeMeta> | null] => {
